@@ -1,0 +1,108 @@
+{
+  "project_info": {
+    "project_number": "432625471246",
+    "project_id": "discountadda-b7eb4",
+    "storage_bucket": "discountadda-b7eb4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:432625471246:android:6907da72f252e394e7515f",
+        "android_client_info": {
+          "package_name": "com.discountadda"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "432625471246-c6tkv0fl4frh505phitn8240j3e244t9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.discountadda",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "432625471246-d8173tkqfuno548fistdt6foj49lok2h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.discountadda",
+            "certificate_hash": "94ce9349cfe1615cbc4bc06a33d41fb98e3c06e2"
+          }
+        },
+        {
+          "client_id": "432625471246-ecn1s4p1lc1hsqrs6jj5c2rjkqonran1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.discountadda",
+            "certificate_hash": "4a1431ed0d7f494c71c748dd1bfaad085daf9b42"
+          }
+        },
+        {
+          "client_id": "432625471246-v0t28iarr07k24amatg4v2r51cbpqmfe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhbvRCIfHPA7gjboSvo5KoO7xjy3bdu5Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "432625471246-v0t28iarr07k24amatg4v2r51cbpqmfe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:432625471246:android:00197fe44ee89cb5e7515f",
+        "android_client_info": {
+          "package_name": "com.discountuser"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "432625471246-cggnrnn7k3n0j8hhi8rldu80k5rjhvek.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.discountuser",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "432625471246-jfas5d68ms4cej5f75h0b85cn2bdb171.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.discountuser",
+            "certificate_hash": "1d3e5f07f4876af72a1accaa3202c862bb3ee434"
+          }
+        },
+        {
+          "client_id": "432625471246-v0t28iarr07k24amatg4v2r51cbpqmfe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhbvRCIfHPA7gjboSvo5KoO7xjy3bdu5Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "432625471246-v0t28iarr07k24amatg4v2r51cbpqmfe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
