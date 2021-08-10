@@ -1,1 +1,1 @@
-# DiscountUserhttps://github.com/AbhavThakur/DiscountUser
+# DiscountUser - https://github.com/AbhavThakur/DiscountUser
