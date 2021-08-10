@@ -66,7 +66,8 @@ export default function ImageCarousel() {
           style={{
             width: windowWidth,
             height: windowHeight * 0.2,
-          }}></Image>
+          }}
+        />
       </View>
     );
   });
@@ -112,8 +113,8 @@ export default function ImageCarousel() {
   return (
     <View
       style={{
-        height: windowHeight * 0.22,
-        paddingTop: 5,
+        height: windowHeight * 0.24,
+        marginTop: 5,
         alignItems: 'center',
       }}>
       <FlatList
@@ -162,7 +163,7 @@ const styles = StyleSheet.create({
   pagination: {
     flexDirection: 'row',
     position: 'absolute',
-    bottom: 10,
+    bottom: 30,
   },
   paginationDot: {
     width: 8,

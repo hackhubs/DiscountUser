@@ -43,6 +43,13 @@ const slideList = [
       'Monitor and analyze the charging status of all your devices in realtime via veCharge dashboard. The device is a zero maintenance product requiring no human intervention.',
     image: require('../assets/park.png'),
   },
+  {
+    id: 4,
+    title: 'Complete automated solution',
+    subtitle:
+      'Monitor and analyze the charging status of all your devices in realtime via veCharge dashboard. The device is a zero maintenance product requiring no human intervention.',
+    image: require('../assets/dmart.png'),
+  },
 ];
 
 function Pagination({index}) {
@@ -74,14 +81,16 @@ export default function Discount() {
     return (
       <View
         style={{
-          width: windowWidth,
+          width: windowWidth * 0.55,
+          padding: 10,
         }}>
         <Image
-          source={{uri: data.image}}
+          source={data.image}
           style={{
-            width: windowWidth,
-            height: windowHeight * 0.2,
-          }}></Image>
+            width: windowWidth * 0.5,
+            height: windowHeight * 0.15,
+          }}
+        />
       </View>
     );
   });

@@ -9,6 +9,7 @@ import {
   Image,
   TouchableOpacity,
 } from 'react-native';
+import Discount from '../../utils/Discount';
 import ImageCarousel from '../../utils/ImageCarousel';
 
 const windowWidth = Dimensions.get('window').width;
@@ -143,6 +144,7 @@ function Home(props) {
           </View>
         </View>
         {/* top categories */}
+        <Discount />
       </ScrollView>
     </>
   );
