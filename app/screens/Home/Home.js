@@ -176,7 +176,7 @@ const styles = StyleSheet.create({
   },
   category: {
     width: windowWidth,
-    height: windowHeight / 2.5,
+    height: 290,
     backgroundColor: '#fff',
     paddingTop: 10,
     shadowColor: '#000',

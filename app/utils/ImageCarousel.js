@@ -1,4 +1,4 @@
-import React, {useCallback, memo, useRef, useState} from 'react';
+import React, {useCallback, memo, useRef, useState, useEffect} from 'react';
 import {
   FlatList,
   View,
@@ -8,7 +8,9 @@ import {
   Image,
   SafeAreaView,
   TouchableOpacity,
+  ActivityIndicator,
 } from 'react-native';
+import {useIsFocused} from '@react-navigation/native';
 
 const {width: windowWidth, height: windowHeight} = Dimensions.get('window');
 
@@ -54,6 +56,16 @@ export default function ImageCarousel() {
   const [index, setIndex] = useState(0);
   const indexRef = useRef(index);
   indexRef.current = index;
+
+  const [loading, setloading] = useState(true);
+
+  const isFocused = useIsFocused();
+
+  function Timer({value}) {
+    return setTimeout(() => {
+      setloading(false);
+    }, value);
+  }
 
   const Slide = memo(function Slide({data}) {
     return (

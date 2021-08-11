@@ -35,7 +35,7 @@ const styles = StyleSheet.create({
   },
 
   input: {
-    padding: 10,
+    padding: 5,
     flex: 1,
     fontSize: 16,
     fontFamily: 'Lato-Regular',

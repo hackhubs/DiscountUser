@@ -75,19 +75,7 @@ function Profile({navigation}) {
               value="B2-11/3, Sector - 3, Thane - 403821 "
             />
             <FormText title="Date of birth" value="8 May 2000" />
-
-            <View style={{flexDirection: 'row'}}>
-              <View style={{width: '40%'}}>
-                <FormText
-                  title="Mobile Number"
-                  value={'+ 91             ⬇'}
-                  style={{width: '85%'}}
-                />
-              </View>
-              <View style={{width: '55%'}}>
-                <FormText value="1234567970" />
-              </View>
-            </View>
+            <FormText title="Mobile Number" value="1234567970" />
           </View>
         </View>
 
@@ -107,7 +95,6 @@ const styles = StyleSheet.create({
   imgcontainer: {
     // backgroundColor: 'yellow',
     alignItems: 'center',
-    marginTop: 10,
   },
   image: {
     width: 140,

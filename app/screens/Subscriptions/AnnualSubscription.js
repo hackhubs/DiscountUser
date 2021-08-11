@@ -7,19 +7,20 @@ import {
   TouchableOpacity,
   Dimensions,
   ImageBackground,
+  ScrollView,
 } from 'react-native';
 import FormButton from '../../components/FormButton';
 import {List, Paragraph} from 'react-native-paper';
 
 function AnnualSubscription(props) {
   return (
-    <View style={styles.container}>
+    <ScrollView contentContainerStyle={styles.container}>
       <ImageBackground
         source={require('../../assets/subscribed_card.png')}
         style={{
           width: '100%',
           height: '92%',
-          maxHeight: '38%',
+          maxHeight: Dimensions.get('window').height * 0.35,
         }}>
         <Image source={require('../../assets/subs.png')} />
       </ImageBackground>
@@ -67,18 +68,20 @@ function AnnualSubscription(props) {
         </List.Section>
         <FormButton buttonTitle="Subscribe" />
       </View>
-    </View>
+    </ScrollView>
   );
 }
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
+    flexGrow: 1,
     backgroundColor: '#fff',
+    paddingBottom: 80,
   },
   amount: {
     alignItems: 'center',
     alignSelf: 'center',
+    marginTop: 10,
   },
   text: {
     color: '#000',

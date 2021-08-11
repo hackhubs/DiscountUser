@@ -37,7 +37,7 @@ function AuthNavigation() {
   } else if (isFirstLaunch === true) {
     routeName = 'OnBoard';
   } else {
-    routeName = 'SignUp';
+    routeName = 'App';
   }
   return (
     <Stack.Navigator
