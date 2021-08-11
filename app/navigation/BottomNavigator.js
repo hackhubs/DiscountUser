@@ -11,12 +11,12 @@ const Tab = createBottomTabNavigator();
 
 const BottomNavigator = () => (
   <Tab.Navigator
-    screenOptions={{headerShown: false}}
-    tabBarOptions={{
-      activeBackgroundColor: '#D02824',
-      activeTintColor: 'white',
-      inactiveBackgroundColor: '#D02824',
-      inactiveTintColor: '#ccc',
+    screenOptions={{
+      tabBarActiveBackgroundColor: '#D02824',
+      tabBarActiveTintColor: 'white',
+      tabBarInactiveBackgroundColor: '#D02824',
+      tabBarInactiveTintColor: '#ccc',
+      headerShown: false,
     }}>
     <Tab.Screen
       name="Home"

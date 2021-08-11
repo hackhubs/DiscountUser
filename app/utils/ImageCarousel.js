@@ -113,7 +113,7 @@ export default function ImageCarousel() {
   return (
     <View
       style={{
-        height: windowHeight * 0.24,
+        height: windowHeight * 0.23,
         marginTop: 5,
         alignItems: 'center',
       }}>

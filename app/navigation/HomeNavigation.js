@@ -9,9 +9,9 @@ const Stack = createStackNavigator();
 
 const HomeNavigation = ({navigation}) => {
   return (
-    <Stack.Navigator presentation="card" initialRouteName="Home">
+    <Stack.Navigator presentation="card" initialRouteName="HomeScreen">
       <Stack.Screen
-        name="Home"
+        name="HomeScreen"
         component={Home}
         options={{
           headerLeft: () => (
@@ -22,7 +22,7 @@ const HomeNavigation = ({navigation}) => {
                 marginStart: 10,
                 justifyContent: 'center',
               }}>
-              <TouchableOpacity onPress={() => navigation.openDrawer()}>
+              <TouchableOpacity>
                 <Image
                   source={require('../assets/menu.png')}
                   style={{width: 25, height: 25, marginEnd: 10}}

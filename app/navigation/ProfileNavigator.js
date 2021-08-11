@@ -8,10 +8,12 @@ const Stack = createStackNavigator();
 const ProfileNavigator = () => {
   return (
     <Stack.Navigator
-      mode="modal"
-      screenOptions={{headerShown: false}}
-      initialRouteName="Profile">
-      <Stack.Screen name="Profile" component={Profile} />
+      screenOptions={{
+        headerShown: false,
+        presentation: 'modal',
+      }}
+      initialRouteName="ProfileScreen">
+      <Stack.Screen name="ProfileScreen" component={Profile} />
     </Stack.Navigator>
   );
 };

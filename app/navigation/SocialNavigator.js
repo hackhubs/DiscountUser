@@ -8,8 +8,10 @@ const Stack = createStackNavigator();
 const SocialNavigator = () => {
   return (
     <Stack.Navigator
-      mode="modal"
-      screenOptions={{headerShown: false}}
+      screenOptions={{
+        headerShown: false,
+        presentation: 'modal',
+      }}
       initialRouteName="Social">
       <Stack.Screen name="Social" component={Socialfeed} />
     </Stack.Navigator>
